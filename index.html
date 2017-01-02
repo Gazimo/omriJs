@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="App">
   <head>
-    <meta charset="utf-8">
-    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"> </script>
+  <script type="text/javascript" src="todo.js"></script>
   </head>
   <body>
-    Hello AngularJs Omri Harel
+  <div ng-controller="TodoCtrl">
+    {{ totalTodos }}
+  </div>
   </body>
 </html>
